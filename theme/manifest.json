@@ -6,7 +6,7 @@
 
   "theme": {
     "images": {
-      "theme_frame": "images/frame.png",
+      "theme_frame": "images/topbar.png",
       "theme_toolbar": "images/topbar.png",
       "theme_tab_background": "images/topbar.png",
       "theme_ntp_background": "images/topbar.png"
@@ -25,8 +25,6 @@
       "ntp_background_alignment": "center",
       "ntp_background_repeat": "no-repeat"
     },
-    "permissions": [
-      "sidePanel"
-    ]
+    "permissions": ["sidePanel"]
   }
 }
