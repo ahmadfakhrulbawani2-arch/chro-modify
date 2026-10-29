@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Image Theme",
+  "version": "1.0",
+  "description": "Tema Brave custom menggunakan gambar sendiri.",
+
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_toolbar": "images/topbar.png",
+      "theme_tab_background": "images/topbar.png",
+      "theme_ntp_background": "images/topbar.png"
+    },
+    "colors": {
+      "frame": [40, 42, 54],
+      "toolbar": [30, 30, 46],
+      "tab_text": [248, 248, 242],
+      "tab_background_text": [186, 187, 241],
+      "bookmark_text": [248, 248, 242],
+      "toolbar_button_icon": [248, 248, 242],
+      "omnibox_background": [30, 30, 46],
+      "omnibox_text": [248, 248, 242]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat"
+    },
+    "permissions": [
+      "sidePanel"
+    ]
+  }
+}
