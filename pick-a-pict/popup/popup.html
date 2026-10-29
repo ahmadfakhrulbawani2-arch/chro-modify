@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover Image Tools</title>
+    <link rel="stylesheet" href="popup.css" />
+    <script src="popup.js" defer></script>
+  </head>
+
+  <body>
+    <main class="popup">
+      <header class="header">
+        <div class="icon">🖼️</div>
+
+        <div>
+          <h1>Hover Image Tools</h1>
+          <p>Quick image actions</p>
+        </div>
+      </header>
+
+      <div class="divider"></div>
+
+      <label class="toggle-row" for="enabled">
+        <div class="toggle-info">
+          <span class="toggle-title">Enable extension</span>
+          <span class="toggle-description" id="status"> Loading... </span>
+        </div>
+
+        <input type="checkbox" id="enabled" />
+        <span class="switch"></span>
+      </label>
+
+      <footer>
+        <span>Download images · Copy image URLs</span>
+      </footer>
+    </main>
+  </body>
+</html>
